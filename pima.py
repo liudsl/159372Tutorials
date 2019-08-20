@@ -9,8 +9,9 @@
 
 # Demonstration of the Perceptron on the Pima Indian dataset
 
-import pylab as pl
 import numpy as np
+import pylab as pl
+
 import pcn
 
 pima = np.loadtxt('pima-indians-diabetes.data', delimiter=',')
